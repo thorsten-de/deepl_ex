@@ -8,8 +8,7 @@ defmodule DeeplEx.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: DeeplEx.Worker.start_link(arg)
-      # {DeeplEx.Worker, arg}
+      {Finch, name: DeeplFinch}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
