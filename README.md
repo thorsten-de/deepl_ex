@@ -1,6 +1,6 @@
 # DeeplEx
 
-**TODO: Add description**
+Simple client to use DeepL api translation functions. Client uses Tesla and Finch for http requests.
 
 ## Installation
 
